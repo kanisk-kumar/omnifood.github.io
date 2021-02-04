@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+.aboutus-image{
+	height: 100%;
+	width: 100%; 
+}
+
+.carousel-item {
+	height: 90vh;
+	width: 100vw;
+}
+.contact-form{
+	background-color: grey;
+	padding: 20px;
+	border-radius: 5%;
+	color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.carousel-item {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.carousel-item {
+		height: 100%;
+		width: 100%;
+	}
+}
